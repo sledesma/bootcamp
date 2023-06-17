@@ -1,0 +1,5 @@
+No pero después podes hacer el formulario en una nueva pagina conectada al index? manteniendo las cards. Tengo dudas del app cuando hay elementos en otra pagina q no sea el index
+
+Simple: React-Router, una libreria especifica para eso (Navegación SPA)
+
+Compleja: Crear un context que use de location y de history para navegar entre páginas y procesar el componente asociado (Uso de Api History)
