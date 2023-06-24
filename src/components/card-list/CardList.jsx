@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import Card from "../card/Card";
 import Preloader from "../preloader/Preloader";
 
+/**
+ * Contextos: RouterProvider
+ */
 const CardList = () => 
 {
     const [items, setItems] = useState([]);

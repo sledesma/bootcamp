@@ -1,3 +1,8 @@
+import { Link } from "react-router-dom";
+
+/**
+ * Contextos: RouterProvider
+ */
 const Card = ({ item }) => (
     <div>
         {item.titulo}
@@ -5,8 +10,8 @@ const Card = ({ item }) => (
         <p>{item.descripcion}</p>
 
         <img src={item.imagen} />
-
-        <a href={`/detalle/${item.id}`}>Ver mas</a>
+        
+        <Link to={`/detalle/${item.id}`}>Ver mas</Link>
     </div>
 )
 
